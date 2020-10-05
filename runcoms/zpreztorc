@@ -40,7 +40,15 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'completion' \
-  'prompt'
+  'syntax-highlighting' \
+  'history-substring-search' \
+  'prompt' \
+  'git' \
+  'dnf' \
+  'archive' \
+  'haskell' \
+  'rsync' \
+  'ssh'
 
 #
 # Autosuggestions
