@@ -24,5 +24,9 @@ fi
 # Use `z' to jump to recent directories ranked by frecency.
 . /usr/libexec/z.sh
 
+# Set personal aliases.
+alias e='emacsclient -t -a emacs'
+alias ec='emacsclient -c -a emacs'
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
