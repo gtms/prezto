@@ -11,3 +11,7 @@
 if [[ ( "$SHLVL" -eq 1 && ! -o LOGIN ) && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
+
+# emacs as default editor
+export EDITOR="emacsclient --alternate-editor= -t"
+export VISUAL="emacsclient --alternate-editor= -t"
